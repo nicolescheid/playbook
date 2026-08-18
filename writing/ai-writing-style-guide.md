@@ -2,7 +2,7 @@
 
 *A portable, evidence-based reference for making copy read like a person wrote it — usable for hand-editing text and for steering language models. Application-agnostic; drop it into any project.*
 
-Last reviewed: 2026-06. This is a moving target — see [Caveats](#caveats-read-these).
+Last reviewed: 2026-08. This is a moving target — see [Caveats](#caveats-read-these).
 
 ---
 
@@ -16,7 +16,14 @@ So don't hunt for banned words. Fix the **structure and the verbs**, lead with t
 
 ## The checklist
 
-### 1. Lexical — inflated words and verbs
+### 1. Negative parallelism / antithesis — check this first
+
+*"Not just X, but Y." "It's not… it's…" "Not only… but also…"* The highest-frequency, highest-value fix on this list. It reads as if correcting a misconception nobody raised — and it's a voice issue, not just a detection one; more on that further down.
+
+- Before: *"It's not just a notebook — it's a thinking tool."*
+- After: *"It's a notebook for thinking things through."*
+
+### 2. Lexical — inflated words and verbs
 
 **Excess "style words."** A small set spiked sharply after late-2022 and now reads as a marker. Flag on sight when they cluster: *delve, underscore, showcase, tapestry, testament, pivotal, intricate, meticulous, robust, seamless, vibrant, commendable, comprehensive, crucial, notably, navigate, landscape, realm, foster, elevate, unlock, journey, unpack, leverage, game-changing.*
 > Density matters more than any single word. Treat these as smoke, not fire.
@@ -27,23 +34,19 @@ So don't hunt for banned words. Fix the **structure and the verbs**, lead with t
 
 **Fix:** cut or swap for the plain word; reserve an elevated verb for when it carries real meaning. Substitute *plainness + specificity* (`seamless → smooth`; `exemplary → excellent`).
 
-### 2. Syntactic — the structures that give it away
-
-**Negative-parallelism / antithesis** — the single most stereotyped construction. *"Not just X, but Y." "It's not… it's…" "Not only… but also…"* It reads as if correcting a misconception nobody raised.
-- Before: *"It's not just a notebook — it's a thinking tool."*
-- After: *"It's a notebook for thinking things through."*
+### 3. Syntactic — the rest of the structures that give it away
 
 **Rule-of-three tricolons** — three balanced items in a row, used to make a thin point feel complete. *"A map, a librarian, and a guide."* Break them; keep one, or use an uneven number.
 
 **Mechanical parallelism** — every sentence the same shape and length. Vary it. Let one sentence be short. Use a fragment.
 
-### 3. Punctuation — the em-dash, in proportion
+### 4. Punctuation — the em-dash, in proportion
 
 The em-dash (the "ChatGPT hyphen") is overused by models far beyond human frequency, so it has become a *perceived* tell.
 **Fix:** replace decorative dashes with full stops, commas, or colons; keep the ones doing real work.
 **Caveat:** em-dashes alone are **not** proof of AI — plenty of strong human writers love them, and removing them won't fool a detector. Rhythm is the deeper signal. Moderate, don't purge.
 
-### 4. Phrase templates & signposting
+### 5. Phrase templates & signposting
 
 Cut these on sight: *"In today's world / fast-paced world," "It's worth noting that," "In conclusion," "A testament to," "Navigating the landscape of," "Plays a pivotal role in," "Here's the thing," "Let's dive in," "When it comes to…"*
 
@@ -51,13 +54,19 @@ Cut these on sight: *"In today's world / fast-paced world," "It's worth noting t
 - Before: *"Oops! Unfortunately, it looks like something went wrong on our end."*
 - After: *"That didn't save. Try again in a moment."*
 
-### 5. Tone & abstraction
+### 6. Tone & abstraction
 
 Vague abstraction and relentless positivity are core tells. So is reflexive both-sides hedging (*"on one hand… on the other…"*).
 
 **Fix — the highest-leverage move of all: replace abstraction with specifics.** Real numbers, real dates, the person's own words.
 - Before: *"Your deposit limit is reset on a monthly basis."*
 - After: *"Until 31 January, you can deposit £400 more."*
+
+### 7. Formatting and Claude-specific tells
+
+**Bold-first bullets** — every list item opening with a bolded phrase; almost nobody formats by hand this way. **Wh- headers**, *"What we do differently," "Where the market is stuck."* **Title Case Headings** instead of sentence case. **Unicode decoration** — smart quotes, → arrows, and other characters nobody types by hand. **Signposted conclusions** — *"In conclusion," "To sum up."*
+
+Worth extra vigilance if the draft came from Claude specifically: em-dash frequency past the general caveat above, the → arrow more than other models produce it, **"we" for "I"** in material that's clearly one person's voice, and forced figurative language that repurposes a word from the prompt as an unrelated metaphor.
 
 ---
 
@@ -68,6 +77,58 @@ Vague abstraction and relentless positivity are core tells. So is reflexive both
 - **Restraint** — says one thing well and stops. Doesn't summarise itself.
 - **Voice** — a point of view, mild opinion, the odd plain or blunt word.
 - **Plainness** — trusts a simple word. "Use," not "utilise." "Is," not "serves as."
+
+---
+
+## Mirroring, not stripping
+
+The patterns above aren't broken as moves — contrast, reveal, understatement are real rhetorical tools. A model reaches for the clean, symmetrical, empty version instead of paying for the effect with something specific. Cutting a tell outright often just goes flat. Keeping the effect while changing what carries it usually works better.
+
+Break the symmetry instead of matching the pair — an idiom flip or a real specific question in place of the second half reads as considered, not templated. Or swap an adverb for a concrete image: "quietly" becomes what unnoticed actually looked like.
+
+The test either way: does this sentence say something a slightly different sentence wouldn't? If the "Y" alone would say the same thing, the setup was decoration.
+
+## The antithesis rule is really a voice rule
+
+The usual reason to cut "not X, but Y" is that it reads as machine-written. There is a stronger reason underneath.
+
+The construction carries a stance. It positions the writer as correcting the reader, and it makes its point by pushing against something instead of standing on its own. For a writer who is temperamentally optimistic, that stance is borrowed, and every instance moves the copy a little further from how they actually think. The tell is the symptom. The imported stance is the problem.
+
+That reframing changes the fix:
+
+- Cutting the negative half is the minimum. It removes the tell.
+- Rebuilding the sentence in the affirmative is the real fix. It restores the stance.
+
+Worked examples, all from live copy:
+
+| Machine-shaped | Affirmative |
+|---|---|
+| sensitivities are instincts, not a checklist | those sensitivities are instinctual to me |
+| safety is part of the process, not an afterthought | safety is part of the process |
+| usage numbers are activity, not value | usage numbers measure activity, and value needs a different lens |
+| the second dip isn't a bad sign, it's the sign you're attempting something real | the second dip is the sign you're attempting something real |
+| speed and rigour aren't opposites, they're integrated | speed and rigour are integrated |
+| it isn't only the message but the medium | it's both the message and the medium |
+| a capability failure, not a model one | a capability story: the models worked, the enablement had not caught up |
+| the job isn't getting people to use AI, it's getting the output to hold up | the job is getting the output to hold up |
+
+The last row is the pattern in miniature. The affirmative version is shorter, says the same thing, and sounds like someone with a view rather than someone issuing a correction.
+
+Extend it past sentence shape. If you genuinely see problems as the work ahead, write them that way.
+
+## Keep a carve-out list
+
+A blanket rule will strip phrases that are genuinely yours. Some contrasts are the whole idea, and some are established brand.
+
+Before applying the antithesis rule to a body of work, write down the phrases that stay, and name them explicitly wherever the rule is stated, so anyone or anything editing on your behalf leaves them alone.
+
+A carve-out earns its place when:
+
+- The comparison is the actual content, and dropping half of it loses information.
+- The phrase is established: a title, a tagline, a term people already associate with you.
+- You say it out loud, in that shape, and it sounds like you.
+
+Everything outside the list states the thing once, in the affirmative. `voice-spec-template.md` has a place to write it down.
 
 ---
 
@@ -93,6 +154,8 @@ Write like a thoughtful, plain-spoken person, not like AI or marketing copy.
 Use plain words and short, varied sentences; let the rhythm be a little uneven.
 Be concrete — use the specific details you were given, not general phrasing.
 Prefer plain verbs (is, has, does, helps) over inflated ones (serves as, leverages, fosters).
+State what something is and stop. Say it in the affirmative rather than defining it
+against what it isn't.
 Avoid: words like delve, underscore, showcase, tapestry, testament, pivotal, robust, seamless,
 navigate, landscape, realm, foster, elevate; openers like "In today's world" or "It's worth noting that";
 and the "not just X, but Y" / "it's not… it's…" construction.
@@ -112,6 +175,8 @@ DO
 - Concrete specifics: real names, numbers, dates, and the exact words the reader gave you.
 - Plain verbs: is, has, does, helps, shows. Plain nouns over abstractions.
 - Lead with the point. Cut the warm-up clause.
+- State what something is and stop, in the affirmative, rather than defining it against
+  what it isn't.
 
 AVOID (these read as machine-written)
 - Inflated verbs: serves as, boasts, leverages, empowers, fosters, represents.
@@ -125,6 +190,14 @@ AVOID (these read as machine-written)
 WHEN UNSURE
 Be plainer and more specific. Trust the simple word.
 ```
+
+### Making it stick
+
+A rule the model was only pointed at is weaker than one sitting in its context. Put it in the prompt, not behind a link.
+
+In a long system prompt, a style rule near the top competes with everything after it. Restate the two or three that matter most near the end, where recency helps — a prompt that grew from roughly 3,500 to 9,000 tokens needed its brevity and voice rules repeated there to hold. Name the carve-out list inside the prompt too, or the model over-applies the rule and strips real voice along with the tell.
+
+None of this replaces review. Reading this guide in full before writing did not reliably prevent the tells in practice — treat the prompt block as reducing the rate, not eliminating it, and keep a human pass.
 
 ---
 
@@ -146,5 +219,6 @@ Be plainer and more specific. Trust the simple word.
 - Smashing Magazine, *How To Improve Microcopy* (June 2024) — the "lead with essential information" and specificity fixes.
 - NPR (2025) and every.to — the em-dash as cultural tell, with the rhythm caveat.
 - Grammarly, *Common AI words*; walterwrites.ai — corroborating word-lists and substitution fixes *(vendor sources; multiply corroborated, treat as indicative).*
+- tropes.fyi (ossama.is) — the formatting and Claude-specific tells, marketing/LinkedIn/CV register.
 
-*Confidence: high on the empirical foundation and the structural fixes; medium on exact word-lists (time-sensitive) and on transfer from academic to marketing register (informed inference).*
+*Confidence: high on the empirical foundation and the structural fixes; medium on exact word-lists (time-sensitive) and on transfer from academic to marketing register (informed inference). The positive-voice and carve-out material is applied editing practice, not corpus study — a working method, tested once, not a measured finding.*
