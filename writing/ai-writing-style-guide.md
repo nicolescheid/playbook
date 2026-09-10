@@ -172,6 +172,7 @@ a sentence that already did the work.
 3. **Openers:** delete the first clause if it's a warm-up; start at the real point.
 4. **Triplets & dashes:** break one rule-of-three; replace one decorative em-dash with a full stop.
 5. **One specific:** swap the vaguest sentence for a concrete detail (a number, a name, a real example).
+6. **Verdicts:** after each piece of evidence, cut the sentence that tells the reader what to conclude from it.
 
 If you only do two, do **1 and 5** — plain verbs and specificity carry most of the effect.
 
@@ -189,6 +190,7 @@ Be concrete — use the specific details you were given, not general phrasing.
 Prefer plain verbs (is, has, does, helps) over inflated ones (serves as, leverages, fosters).
 State what something is and stop. Say it in the affirmative rather than defining it
 against what it isn't.
+Give the evidence and stop. Don't add a sentence telling the reader what to conclude from it.
 Avoid: words like delve, underscore, showcase, tapestry, testament, pivotal, robust, seamless,
 navigate, landscape, realm, foster, elevate; openers like "In today's world" or "It's worth noting that";
 and the "not just X, but Y" / "it's not… it's…" construction.
@@ -210,6 +212,8 @@ DO
 - Lead with the point. Cut the warm-up clause.
 - State what something is and stop, in the affirmative, rather than defining it against
   what it isn't.
+- Give the evidence and stop. Don't announce the point before the evidence, and don't
+  follow the evidence with a sentence telling the reader what to conclude from it.
 
 AVOID (these read as machine-written)
 - Inflated verbs: serves as, boasts, leverages, empowers, fosters, represents.
