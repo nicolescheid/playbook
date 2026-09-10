@@ -2,7 +2,7 @@
 
 *A portable, evidence-based reference for making copy read like a person wrote it — usable for hand-editing text and for steering language models. Application-agnostic; drop it into any project.*
 
-Last reviewed: 2026-08. This is a moving target — see [Caveats](#caveats-read-these).
+Last reviewed: 2026-09. This is a moving target — see [Caveats](#caveats-read-these).
 
 ---
 
@@ -129,6 +129,39 @@ A carve-out earns its place when:
 - You say it out loud, in that shape, and it sounds like you.
 
 Everything outside the list states the thing once, in the affirmative. `voice-spec-template.md` has a place to write it down.
+
+## Let the facts speak
+
+After stating a fact or piece of evidence, don't follow it with a sentence
+that tells the reader what to conclude from it. State the fact. Stop.
+
+This shows up as two patterns to cut on sight:
+
+- **Thesis-first framing** — announcing the point before the evidence that
+  proves it. ("I am the kind of person who does X: [evidence].") Cut the
+  announcement; let the evidence open the paragraph.
+- **Restating the implication** — a closing sentence that says the same
+  thing the prior sentence already showed, just more explicitly, or spells
+  out a connection the reader would make unprompted.
+
+Test: read the sentence in isolation. If it contains no new information,
+only a verdict on the information before it, cut it.
+
+Example (cover letter):
+- Before: "I built the components a capability strategy depends on: a
+  practitioner forum, training pathways, a livestream, coaching. What I'd
+  bring to this role is that same pattern, systematised: defining the
+  framework end to end, not assembling it component by component after
+  the fact."
+- After: "I built the components a capability strategy depends on: a
+  practitioner forum, training pathways, a livestream, coaching."
+  (The reader draws the conclusion. The second sentence added nothing but
+  volume.)
+
+Applies to cover letters, CVs, and any persuasive writing. Does not apply
+to genuinely new information delivered as a short, direct statement,
+only to sentences whose sole job is telling the reader how to feel about
+a sentence that already did the work.
 
 ---
 
