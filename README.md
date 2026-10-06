@@ -7,6 +7,7 @@ Living standards and guidelines, kept in one place and reused across projects. E
 ### Writing
 - **[Avoiding AI Writing Tells](writing/ai-writing-style-guide.md)** — an evidence-based style guide for making copy read like a person wrote it. Covers the tells to cut (lexical, structural, and formatting) and the affirmative-voice work of rebuilding a sentence rather than just trimming it. Includes an editing checklist, a 60-second edit pass, and a drop-in prompt block for steering language models. Application-agnostic.
 - **[Voice Spec Template](writing/voice-spec-template.md)** — a template for specifying one person's or one product's voice, to be filled in once and kept alongside the style guide above.
+- **[Signature Lines](writing/signature-lines.md)** — Nic's own lines, in use and under review, with written and spoken forms where they differ. The "signature phrases" section of the voice spec, kept as a living list.
 
 *(More to come: commit conventions, brand voice, prompt snippets, component patterns…)*
 
