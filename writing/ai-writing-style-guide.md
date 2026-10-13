@@ -2,7 +2,7 @@
 
 *A portable, evidence-based reference for making copy read like a person wrote it — usable for hand-editing text and for steering language models. Application-agnostic; drop it into any project.*
 
-Last reviewed: 2026-09. This is a moving target — see [Caveats](#caveats-read-these).
+Last reviewed: 2026-10-14. This is a moving target — see [Caveats](#caveats-read-these).
 
 ---
 
@@ -38,7 +38,7 @@ So don't hunt for banned words. Fix the **structure and the verbs**, lead with t
 
 **Rule-of-three tricolons** — three balanced items in a row, used to make a thin point feel complete. *"A map, a librarian, and a guide."* Break them; keep one, or use an uneven number.
 
-**Mechanical parallelism** — every sentence the same shape and length. Vary it. Let one sentence be short. Use a fragment.
+**Mechanical parallelism** — every sentence the same shape and length. Vary it. Let one sentence be short. Use a fragment. But watch *where* the short sentence lands: one placed right before every turn is its own tell (see [§8](#8-essay-level-tells-openings-and-conclusions)).
 
 ### 4. Punctuation — the em-dash, in proportion
 
@@ -67,6 +67,36 @@ Vague abstraction and relentless positivity are core tells. So is reflexive both
 **Bold-first bullets** — every list item opening with a bolded phrase; almost nobody formats by hand this way. **Wh- headers**, *"What we do differently," "Where the market is stuck."* **Title Case Headings** instead of sentence case. **Unicode decoration** — smart quotes, → arrows, and other characters nobody types by hand. **Signposted conclusions** — *"In conclusion," "To sum up."*
 
 Worth extra vigilance if the draft came from Claude specifically: em-dash frequency past the general caveat above, the → arrow more than other models produce it, **"we" for "I"** in material that's clearly one person's voice, and forced figurative language that repurposes a word from the prompt as an unrelated metaphor.
+
+### 8. Essay-level tells (openings and conclusions)
+
+These surfaced in an exercise generating openings and conclusions for three short think pieces, then hunting for the tells. They sit above the sentence level, so a word-list won't catch them.
+
+**The shared skeleton.** Every opening ran: dated vivid scene, then zoom out ("Nature is full of…"), then pose the real question ("The more interesting question is…"). Every conclusion ran: reframe what it "really" shows, widen to a lesson, land a quotable last line. Once is a technique; across pieces it's a template. Vary the shape between pieces.
+
+**The punch beat.** A short, flat sentence placed immediately before a turn or reveal: *"No firefly is in charge." "Nobody died, but…" "Nobody had seen one."* It survives a first scrub because it looks like "vary your sentence length". Humans use short sentences too; the tell is that the model lands them on schedule.
+- **Fix:** keep a short sentence when cutting it would lose information, not just rhythm. *"Then the houses in Pawnee cracked"* carries a fact; *"Nobody had seen one"* is mostly drama and can fold into its neighbour ("…but nobody had seen one").
+- **Sliding scale:** high-value punches always stay; middling ones occasionally; pure-drama ones merge every time. Randomising placement alone doesn't work: short sentences in arbitrary places read as clumsy, not human.
+
+**Colon reveals.** *"…made something plain: the ground…" / "something stranger: simple local rules…"* The colon doing the drum-roll.
+
+**Signposting interest instead of earning it.** *"The more interesting question," "something stranger," "a quieter possibility," "the most interesting thing."* Delete the label; if the thing is interesting, the reader will notice.
+
+**Reflexive balance.** Set up two camps, then *"Either way…"*. Resolves nothing and sounds wise doing it.
+
+**Inserted caveat.** *"That should temper how we describe it."* Often accurate, but reads as the writer covering itself. Put the caveat in the fact instead.
+
+**Moral at the end.** *"Worth remembering every time…"*. Stop on the last fact or image.
+
+**Manufactured stance.** Hedging against an obvious word ("I'm suspicious of the word *magical*") to seem less generic. If the writer doesn't actually hold the view, it's an imported opinion, which is worse than the cliché.
+
+**Nothing risked.** No odd specific detail, no opinion that could be wrong, no joke. The safest draft is the most machine-shaped one.
+
+#### Idiosyncrasy, not noise
+
+Making generated text less formulaic by randomising its devices misses the point. Human writers are **consistent within themselves and different from each other**: one overuses parentheses, another starts sentences with "And", and those tics hold across everything they write. Model output is uniform across everyone. The target is a stable, personal set of quirks, which is what a voice spec records (see [voice-spec-template.md](voice-spec-template.md)).
+
+Even a writer's inconsistencies are patterned. Someone who moved countries may mix dialects ("car park" one sentence, "parking lot" the next), but each word tends to keep the form it was learned with. That patterned inconsistency is one of the strongest human signals there is, and a model faking it at random won't reproduce it.
 
 ---
 
