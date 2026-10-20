@@ -10,6 +10,9 @@ Living standards and guidelines, kept in one place and reused across projects. E
 - **[Voice Spec: Nic](writing/voice-spec-nic.md)** — Nic's own voice, filled in from the template: presenter's register, humour, spelling and dialect habits, what to avoid. Provisional until writing samples are added.
 - **[Signature Lines](writing/signature-lines.md)** — Nic's own lines, in use and under review, with written and spoken forms where they differ. The "signature phrases" section of the voice spec, kept as a living list.
 
+### Teaching
+- **[Teaching and Training Principles](teaching/teaching-principles.md)**: Nic's personal approach to designing courses, workshops, talks and AI enablement work. Human thinking before AI, load-bearing hooks, variety of technique, and human prompts. Includes a review checklist and a drop-in prompt block. Provisional.
+
 *(More to come: commit conventions, brand voice, prompt snippets, component patterns…)*
 
 ## How to use this across projects
